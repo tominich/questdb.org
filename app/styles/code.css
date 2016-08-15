@@ -1,0 +1,39 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic|Noto+Serif:400,400italic,700,700italic|Droid+Sans+Mono:400";
+
+pre.prettyprinted {
+    padding: 10px;
+    border: none;
+    margin: 0;
+}
+
+code {
+    font-family: "Droid Sans Mono", "DejaVu Sans Mono", "Menlo", monospace;
+    font-size: .90625em;
+    line-height: 1.45;
+}
+
+.section-dark a {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.row.vertical-divider {
+    overflow: hidden;
+}
+.row.vertical-divider > div[class^="col-"] {
+    text-align: center;
+    padding-bottom: 100px;
+    margin-bottom: -100px;
+    border-left: 3px solid #F2F7F9;
+    border-right: 3px solid #F2F7F9;
+}
+.row.vertical-divider div[class^="col-"]:first-child {
+    border-left: none;
+}
+.row.vertical-divider div[class^="col-"]:last-child {
+    border-right: none;
+}
+
+.__slackin {
+    z-index: 10;
+}

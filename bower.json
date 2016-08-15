@@ -1,0 +1,38 @@
+{
+  "name": "questdb.org",
+  "authors": [
+    "Vlad Ilyushchenko (Appsicle Ltd.)"
+  ],
+  "description": "QuestDB Web Site",
+  "license": "Proprietary",
+  "homepage": "www.questdb.org",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "jquery": "^2.2.2",
+    "fontawesome": "~4.5.0",
+    "bootstrap": "^3.3.6"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    },
+    "fontawesome": {
+      "main": [
+        "css/font-awesome.css",
+        "fonts/*"
+      ]
+    }
+  }
+}
