@@ -4438,7 +4438,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly] {
 }
 
 .section-gray {
-  background: #E5E5E5;
+  background: #fafafa;
 }
 
 .section-light-gray {
