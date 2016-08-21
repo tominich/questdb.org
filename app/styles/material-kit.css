@@ -59,7 +59,7 @@ a:hover, a:focus {
 a.text-info:hover, a.text-info:focus {
   color: #00a5bb;
 }
-a .material-icons {
+a .fa {
   vertical-align: middle;
 }
 
@@ -959,19 +959,19 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   min-width: 40px;
   width: 40px;
 }
-.btn.btn-fab.btn-fab-mini.material-icons, .btn-group-sm .btn.btn-fab.material-icons,
-.navbar .navbar-nav > li > a.btn.btn-fab.btn-fab-mini.material-icons, .btn-group-sm
-.navbar .navbar-nav > li > a.btn.btn-fab.material-icons {
+.btn.btn-fab.btn-fab-mini.fa, .btn-group-sm .btn.btn-fab.fa,
+.navbar .navbar-nav > li > a.btn.btn-fab.btn-fab-mini.fa, .btn-group-sm
+.navbar .navbar-nav > li > a.btn.btn-fab.fa {
   top: -3.5px;
   left: -3.5px;
 }
-.btn.btn-fab.btn-fab-mini .material-icons, .btn-group-sm .btn.btn-fab .material-icons,
-.navbar .navbar-nav > li > a.btn.btn-fab.btn-fab-mini .material-icons, .btn-group-sm
-.navbar .navbar-nav > li > a.btn.btn-fab .material-icons {
+.btn.btn-fab.btn-fab-mini .fa, .btn-group-sm .btn.btn-fab .fa,
+.navbar .navbar-nav > li > a.btn.btn-fab.btn-fab-mini .fa, .btn-group-sm
+.navbar .navbar-nav > li > a.btn.btn-fab .fa {
   font-size: 17px;
 }
-.btn.btn-fab i.material-icons,
-.navbar .navbar-nav > li > a.btn.btn-fab i.material-icons {
+.btn.btn-fab i.fa,
+.navbar .navbar-nav > li > a.btn.btn-fab i.fa {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1014,7 +1014,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   padding: 13px 18px;
 }
 
-.btn .material-icons {
+.btn .fa {
   vertical-align: middle;
   font-size: 17px;
   top: -1px;
@@ -1028,7 +1028,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .navbar .navbar-nav > li > a.btn.btn-fab {
   margin: 5px 2px;
 }
-.navbar .navbar-nav > li > a:not(.btn) .material-icons {
+.navbar .navbar-nav > li > a:not(.btn) .fa {
   margin-top: -3px;
   top: 0px;
   position: relative;
@@ -2228,9 +2228,9 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
   color: inherit;
   background-color: transparent;
 }
-.navbar .navbar-nav > li > a .material-icons,
+.navbar .navbar-nav > li > a .fa,
 .navbar .navbar-nav > li > a .fa {
-  font-size: 20px;
+  font-size: 15px;
   max-width: 20px;
 }
 .navbar .navbar-nav > li > a:not(.btn-just-icon) .fa {
@@ -2680,7 +2680,7 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 .dropdown-menu.dropdown-with-icons li > a {
   padding: 12px 20px 12px 12px;
 }
-.dropdown-menu.dropdown-with-icons li > a .material-icons {
+.dropdown-menu.dropdown-with-icons li > a .fa {
   vertical-align: middle;
   font-size: 24px;
   position: relative;
@@ -2931,7 +2931,7 @@ h2.title {
 .description,
 .card-description,
 .footer-big p {
-  color: #999999;
+  color: #333333;
 }
 
 .text-warning {
@@ -2990,7 +2990,7 @@ h2.title {
 .nav-tabs > li.disabled > a, .nav-tabs > li.disabled > a:hover {
   color: rgba(255, 255, 255, 0.5);
 }
-.nav-tabs > li .material-icons {
+.nav-tabs > li .fa {
   margin: -1px 5px 0 0;
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
@@ -3078,7 +3078,7 @@ h2.title {
 .carousel.carousel-full-nagivation .carousel-control.left, .carousel.carousel-full-nagivation .carousel-control.right {
   background-image: none;
 }
-.carousel.carousel-full-nagivation .carousel-control .material-icons,
+.carousel.carousel-full-nagivation .carousel-control .fa,
 .carousel.carousel-full-nagivation .carousel-control .fa {
   display: none;
 }
@@ -3094,7 +3094,7 @@ h2.title {
 .carousel .carousel-control.right {
   left: auto;
 }
-.carousel .carousel-control .material-icons {
+.carousel .carousel-control .fa {
   position: absolute;
   top: 50%;
   z-index: 5;
@@ -3126,7 +3126,7 @@ h2.title {
 .carousel .carousel-caption {
   padding-bottom: 45px;
 }
-.carousel .carousel-caption .material-icons {
+.carousel .carousel-caption .fa {
   position: relative;
   top: 5px;
 }
@@ -3269,7 +3269,7 @@ h2.title {
   width: 100%;
   height: auto;
 }
-.card .category .material-icons {
+.card .category .fa {
   position: relative;
   top: 6px;
   line-height: 0;
@@ -3309,7 +3309,7 @@ h2.title {
   line-height: 30px;
   color: #999999;
 }
-.card .footer .stats .material-icons {
+.card .footer .stats .fa {
   position: relative;
   top: 4px;
   font-size: 18px;
@@ -3466,7 +3466,7 @@ h2.title {
 .card-testimonial .icon {
   margin-top: 30px;
 }
-.card-testimonial .icon .material-icons {
+.card-testimonial .icon .fa {
   font-size: 40px;
 }
 
@@ -3603,7 +3603,7 @@ h2.title {
 .card-product .footer {
   margin-top: 5px;
 }
-.card-product .footer .stats .material-icons {
+.card-product .footer .stats .fa {
   margin-top: 4px;
   top: 0;
 }
@@ -3824,10 +3824,10 @@ hr.on-light {
 .info {
   max-width: 360px;
   margin: 0 auto;
-  padding: 70px 0 30px;
+  padding: 40px 0 30px;
 }
 .info .icon {
-  color: #999999;
+  color: #333333;
 }
 .info .icon > i {
   font-size: 4.4em;
@@ -3837,7 +3837,7 @@ hr.on-light {
   margin: 30px 0 15px;
 }
 .info p {
-  color: #999999;
+  color: #333333;
 }
 
 .info-horizontal .icon {
@@ -4438,7 +4438,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly] {
 }
 
 .section-gray {
-  background: #fafafa;
+  background: #f6f6f6;
 }
 
 .section-light-gray {
@@ -5106,7 +5106,7 @@ footer .footer-brand:hover, footer .footer-brand:focus {
 footer .copyright {
   padding: 15px 0;
 }
-footer .copyright .material-icons {
+footer .copyright .fa {
   font-size: 18px;
   position: relative;
   top: 3px;
