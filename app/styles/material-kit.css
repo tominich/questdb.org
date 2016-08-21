@@ -800,7 +800,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .btn.btn-github,
 .navbar .navbar-nav > li > a.btn.btn-github {
-  background-color: #333333;
+  background-color: #999999;
   color: #fff;
   box-shadow: 0 2px 2px 0 rgba(51, 51, 51, 0.14), 0 3px 1px -2px rgba(51, 51, 51, 0.2), 0 1px 5px 0 rgba(51, 51, 51, 0.12);
 }
@@ -808,13 +808,13 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .navbar .navbar-nav > li > a.btn.btn-github:focus,
 .navbar .navbar-nav > li > a.btn.btn-github:active,
 .navbar .navbar-nav > li > a.btn.btn-github:hover {
-  background-color: #333333;
+  background-color: #999999;
   color: #fff;
   box-shadow: 0 14px 26px -12px rgba(51, 51, 51, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(51, 51, 51, 0.2);
 }
 .btn.btn-github.btn-simple,
 .navbar .navbar-nav > li > a.btn.btn-github.btn-simple {
-  color: #333333;
+  color: #999999;
   background-color: transparent;
   box-shadow: none;
 }
@@ -2931,7 +2931,7 @@ h2.title {
 .description,
 .card-description,
 .footer-big p {
-  color: #333333;
+  color: #999999;
 }
 
 .text-warning {
@@ -3827,7 +3827,7 @@ hr.on-light {
   padding: 40px 0 30px;
 }
 .info .icon {
-  color: #333333;
+  color: #999999;
 }
 .info .icon > i {
   font-size: 4.4em;
@@ -3837,7 +3837,7 @@ hr.on-light {
   margin: 30px 0 15px;
 }
 .info p {
-  color: #333333;
+  color: #999999;
 }
 
 .info-horizontal .icon {
@@ -4626,7 +4626,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly] {
 }
 
 .page-header {
-  height: 100vh;
+  height: 120vh;
   background-position: center center;
   background-size: cover;
   margin: 0;
@@ -5739,7 +5739,7 @@ footer .pull-center {
 }
 
 .main-raised {
-  margin: -60px 30px 0px;
+  margin: -60px 30px 0;
   border-radius: 6px;
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
@@ -6187,7 +6187,7 @@ footer .pull-center {
 }
 
 .login-page .page-header {
-  min-height: 100vh;
+  min-height: 120vh;
   height: auto;
 }
 .login-page .page-header .container {
@@ -6202,7 +6202,7 @@ footer .pull-center {
 }
 
 .signup-page .page-header {
-  min-height: 100vh;
+  min-height: 120vh;
   height: auto;
 }
 .signup-page .page-header .container {
@@ -6453,7 +6453,7 @@ footer .pull-center {
 
   .page-header {
     height: auto;
-    min-height: 100vh;
+    min-height: 120vh;
   }
   .page-header .iframe-container {
     padding: 30px 0;
