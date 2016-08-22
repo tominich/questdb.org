@@ -113,8 +113,7 @@
                     Performance that redefines what's possible. Accessibility without a compromise. We want you to love
                     working with data again.</h4>
                 <br/>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"
-                   class="btn btn-danger btn-raised btn-lg">
+                <a href="#" class="btn btn-danger btn-raised btn-lg">
                     <i class="fa fa-play"></i> Watch video
                 </a>
             </div>
@@ -249,7 +248,8 @@
                         <h5 class="description">QuestDB supports 64-bit versions of Windows, Linux and OSX.
                             Distribution package is cross-platform and does not require installation. Just unzip and
                             run.</h5>
-                        <a href="#" target="_blank" class="btn btn-danger btn-round">Download v1.0 64bit</a>
+                        <a href="/download/questdb-1.0.0-SNAPSHOT-20160822-0122-bin.tar.gz"
+                           class="btn btn-danger btn-round">Download v1.0 64bit</a>
                     </div>
                     <ul class="links-vertical" style="margin: 0; padding: 20px 0; list-style: none;">
                         <li>
@@ -283,7 +283,8 @@
             <div class="container">
                 <div class="title">
                     <h2>Community</h2>
-                    <h4 class="description">We actively develop QuestDB and we value any feedback we receive. We are keen to know
+                    <h4 class="description">We actively develop QuestDB and we value any feedback we receive. We are
+                        keen to know
                         our users and be able to help you to get the most out of QuestDB features. You help us shape our
                         roadmap and establish priorities.</h4>
                 </div>
@@ -373,14 +374,20 @@
 
         //smooth scroll to the section
         navigationItems.on('click', function (event) {
-            event.preventDefault();
-            smoothScroll($(this.hash));
+            var offset = $(this.hash).offset();
+            if (offset) {
+                event.preventDefault();
+                smoothScroll(offset);
+            }
         });
 
         //smooth scroll to second section
         $('.cd-scroll-down').on('click', function (event) {
-            event.preventDefault();
-            smoothScroll($(this.hash));
+            var offset = $(this.hash).offset();
+            if (offset) {
+                event.preventDefault();
+                smoothScroll(offset);
+            }
         });
 
         //open-close navigation on touch devices
@@ -394,9 +401,9 @@
             $('.touch #cd-vertical-nav').removeClass('open');
         });
 
-        function smoothScroll(target) {
+        function smoothScroll(offset) {
             $('body,html').animate(
-                    {'scrollTop': target.offset().top},
+                    {'scrollTop': offset.top},
                     900
             );
 
