@@ -73,11 +73,15 @@ materialKit = {
                 if(transparent) {
                     transparent = false;
                     $('.navbar-color-on-scroll').removeClass('navbar-transparent');
+                    $('#logo-black').show();
+                    $('#logo-white').hide();
                 }
             } else {
                 if( !transparent ) {
                     transparent = true;
                     $('.navbar-color-on-scroll').addClass('navbar-transparent');
+                    $('#logo-white').show();
+                    $('#logo-black').hide();
                 }
             }
     }, 17),
